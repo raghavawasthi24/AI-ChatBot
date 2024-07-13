@@ -15,14 +15,16 @@ import { FaPlus } from "react-icons/fa";
 
 export default function App() {
   return (
-    <div className="w-80 p-2">
-      <div className="flex gap-4">
+    <div className="w-96 p-2 grid gap-4">
+      <div className="flex gap-4 text-xl font-bold justify-center items-center">
         <p>Help Ai Chat Bot</p>
-        <RxCross1 className="w-5 h-5 text-red-500" />
+        <RxCross1 className="w-5 h-5" />
       </div>
       <hr />
 
-      <div className="bg-blue-100 p-2 grid gap-4 rounded-lg">
+      <p className="text-center font-bold text-4xl text-blue-500">Techstack </p>
+
+      <div className="bg-blue-100 p-2 grid gap-4 rounded-lg relative">
         <p>
           The smartest and fastest AI yet? Invite friends to try Claude 3.5
           Sonnet for fee!
@@ -32,17 +34,37 @@ export default function App() {
           <button className="text-sky-400 font-bold">Try Now</button>
           <button className="text-gray-400">Dismiss</button>
         </div>
+
+        <RxCross1 className="w-4 h-4 absolute top-0 right-0 bg-gray-100 p-1 rounded-full m-1" />
       </div>
 
-      <div>
-        <h1>How can I assist you today?</h1>
+      <div className="grid gap-2">
+        <h1 className="text-center text-2xl font-bold text-gray-600">
+          How can I assist you today?
+        </h1>
 
-        <div>
-          <p className="bg-gray-100 p-2">
+        <div className="grid gap-2">
+          <p className="bg-gray-100 p-2 rounded-lg">
+            Tell me something about Big Bang Theory so that I can explain it to
+            my 5 year -old child
+          </p>
+          <p className="bg-gray-100 p-2 rounded-lg">
+            Tell me something about Big Bang Theory so that I can explain it to
+            my 5 year -old child
+          </p>
+          <p className="bg-gray-100 p-2 rounded-lg">
             Tell me something about Big Bang Theory so that I can explain it to
             my 5 year -old child
           </p>
         </div>
+      </div>
+
+      <div className="bg-blue-100 p-2 pr-4 grid gap-4 rounded-lg relative">
+        <p>
+         Slider starts a new chat each time you reopen the sidebar. If you want to resume the last chat, <span className="text-blue-500">change this in the settings.</span>
+        </p>
+
+        <RxCross1 className="w-4 h-4 absolute top-0 right-0 bg-gray-100 p-1 rounded-full m-1" />
       </div>
 
       <br />
