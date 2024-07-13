@@ -5,7 +5,7 @@ import { RxCross1 } from "react-icons/rx";
 export default function PopUp1() {
     const [hide, setHide] = React.useState(false);
   return (
-    <div className="bg-blue-100 p-2 grid gap-4 rounded-lg relative" style={{display:hide?"none":"grid"}}>
+    <div className="bg-blue-100 p-2 grid gap-4 rounded-lg relative text-lg mb-5" style={{display:hide?"none":"grid"}}>
       <p>
         The smartest and fastest AI yet? Invite friends to try Claude 3.5 Sonnet
         for fee!

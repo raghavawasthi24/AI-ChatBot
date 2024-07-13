@@ -19,7 +19,7 @@ export default function Toolbar({ setActiveChats, activechats }) {
     setText("");
   }
   return (
-    <div className="grid gap-2">
+    <div className="grid gap-2 text-lg">
       <div className="flex justify-between">
         <div className="flex gap-4">
           <IoIosFlash className="w-5 h-5 text-red-500" />

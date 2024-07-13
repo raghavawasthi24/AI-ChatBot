@@ -5,7 +5,7 @@ export default function PopUp2() {
   const [hide, setHide] = React.useState(false);
   return (
     <div
-     className="bg-blue-100 p-2 pr-4 grid gap-4 rounded-lg relative"
+     className="bg-blue-100 p-2 pr-4 grid gap-4 rounded-lg relative text-lg"
      style={{ display: hide ? "none" : "grid" }}
      >
       <p>
