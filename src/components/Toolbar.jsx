@@ -41,14 +41,17 @@ export default function Toolbar({ setActiveChats, activechats }) {
         />
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-4">
-            <FaWandMagicSparkles className="w-4 h-4 text-blue-500" />
-            <VscMention className="w-6 h-6 text-blue-500" />
-            <div className="flex items-center gap-2 bg-blue-200 px-3 py-1 rounded-2xl">
+            <FaWandMagicSparkles className="w-4 h-4 text-blue-500 cursor-pointer" />
+            <VscMention className="w-6 h-6 text-blue-500 cursor-pointer" />
+            <div className="flex items-center gap-2 bg-blue-200 px-3 py-1 rounded-2xl cursor-pointer">
               <FaPlus className="w-3 h-3 text-blue-500" />
               Add Tools
             </div>
           </div>
-          <TbSend2 className="w-5 h-5 text-blue-500" onClick={addText} />
+          <TbSend2
+            className="w-5 h-5 text-blue-500 cursor-pointer"
+            onClick={addText}
+          />
         </div>
       </div>
     </div>
